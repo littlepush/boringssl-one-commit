@@ -203,6 +203,7 @@ elseif(MSVC)
       "C4514" # 'function': unreferenced inline function has been removed
       "C4548" # expression before comma has no effect; expected expression with
               # side-effect" caused by FD_* macros.
+      "C4577" # noexport
       "C4610" # struct 'argument' can never be instantiated - user defined
               # constructor required.
       "C4623" # default constructor was implicitly defined as deleted
