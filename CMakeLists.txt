@@ -227,6 +227,7 @@ elseif(MSVC)
               # /Qspectre switch specified
       "C4191" # 'type cast' unsafe conversion from 'bio_info_cb' to another
               # function pointer with Visual Studio 2022
+      "C5264" # 'const' variable is not used
       )
   set(MSVC_LEVEL4_WARNINGS_LIST
       # See https://connect.microsoft.com/VisualStudio/feedback/details/1217660/warning-c4265-when-using-functional-header
